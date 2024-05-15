@@ -9,12 +9,7 @@ React-mini-project calculate and time
 
 ### let's get in Step by Step
 
-## we need to install 
 
-### -> Install moment-timezone
-commad-> npm install moment-timezone
-import -> moment from 'moment'
-import-> import moment-timezone
 
 ### -> Install React-Router
 command -> npm install react-router-dom

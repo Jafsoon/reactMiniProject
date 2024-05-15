@@ -1,10 +1,10 @@
 
 
-const WelcomeNote = () => {
+const WelcomeNotes = () => {
 
   return (
     <h1>Calculate and time</h1>
   )
 }
 
-export default WelcomeNote
+export default WelcomeNotes
