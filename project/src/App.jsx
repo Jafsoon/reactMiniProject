@@ -1,12 +1,14 @@
 
 import './App.css'
+import WelcomeNote from './components/WelcomeNote'
 
 function App() {
  
 
   return (
     <>
-      <h1>Hello World</h1>
+      
+      <WelcomeNote />
     </>
   )
 }
