@@ -1,7 +1,7 @@
 import React from "react";
 
 
-const ButtonLink = () => {
+const TokyoTime = () => {
 
   return (
     <button> Tokyo-Time</button>
@@ -9,4 +9,4 @@ const ButtonLink = () => {
 }
 
 
-export default ButtonLink
+export default TokyoTime
