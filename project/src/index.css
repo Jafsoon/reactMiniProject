@@ -5,12 +5,14 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-image: url("project/src/assets/pexels-boa-vision-914571-16566782.jpg");
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+  
 }
 
 a {
@@ -22,24 +24,36 @@ a:hover {
   color: #535bf2;
 }
 
-
-.timeContainer{
+.timeContainer {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   gap: 100px;
 }
 
 body {
-  margin: 0;
-  
+  /* margin: 0; */
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-image: url("assets/9d183514b670677699323c9033b38d91.jpg");
+  background-size: cover;
+
+  
 }
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index:-100;
+}
+
 
 h2 {
   font-size: 3.2em;
   line-height: 1.1;
+  color: yellowgreen;
 }
 
 button {

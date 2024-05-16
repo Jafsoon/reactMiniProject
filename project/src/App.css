@@ -3,6 +3,8 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  
+  
 }
 
 .logo {
@@ -39,4 +41,43 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.calContainer {
+  width: 320px;
+  height: 400px;
+  margin: auto;
+  margin-top: 80px;
+  
+  
+}
+
+#answer {
+  background-color: rgb(20, 13, 4);
+  padding: 10px;
+  font-size: 35px;
+  width: 265px;
+  height: 45px;
+  text-align: right;
+  border: 3px solid rgb(137, 136, 136);
+  color: rgb(255, 255, 255);
+}
+
+.button {
+  background-color: rgb(10, 0, 47);
+
+  height: 80px;
+  width: 96px;
+  color: rgb(123, 173, 255);
+  font-size: 30px;
+  border: 1px solid rgb(192, 192, 192);
+}
+
+.button1 {
+  background-color: rgb(10, 0, 47);
+  height: 80px;
+  width: 96px;
+  color: rgb(123, 173, 255);
+  font-size: 30px;
+  border: 1px solid rgb(190, 189, 189);
 }

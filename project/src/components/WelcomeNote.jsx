@@ -8,7 +8,7 @@ const WelcomeNotes = () => {
   return (
     <>
 
-<h1>Calculater and diffrent Time-zones</h1>
+<h1>Calculator and diffrent Time-zones Display</h1>
 <br />
 
 
@@ -18,6 +18,9 @@ const WelcomeNotes = () => {
 <NavLink to="/TimeLO">London-Time</NavLink>
 <br />
 <NavLink to="/TimeTo">Tokyo-Time</NavLink>
+<br />
+<NavLink to="/Calculator">Calculator</NavLink>
+
 </div>
 
  <Outlet />

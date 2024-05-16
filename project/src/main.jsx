@@ -7,6 +7,7 @@ import WelcomeNote from "./components/WelcomeNote";
 import TimeTO from "./components/TimeTO";
 import TimeLO from "./components/TimeLO";
 import TimeNY from "./components/TimeNY";
+import Calculator from "./components/Calculator.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -14,8 +15,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Routes>
         <Route path="/" element={<WelcomeNote />}>
           <Route path="TimeNY" element={<TimeNY />} />
-          <Route path="TimeLO" element={<TimeLO/>} />
-          <Route path="TimeTO" element= {< TimeTO/>} />
+          <Route path="TimeLO" element={<TimeLO />} />
+          <Route path="TimeTO" element={<TimeTO />} />
+          <Route path="Calculator" element={<Calculator />} />
         </Route>
       </Routes>
     </Router>

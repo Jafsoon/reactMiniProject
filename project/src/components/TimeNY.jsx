@@ -13,7 +13,7 @@ function TimeNY() {
   return (
     <div>
       <h2>New York Time</h2>
-      <p>{time}</p>
+      <h2>{time}</h2>
     </div>
   );
 }
