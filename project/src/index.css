@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-image: url("project/src/assets/pexels-boa-vision-914571-16566782.jpg");
+  
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -33,7 +33,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-image: url("assets/new.png");
+  background-image: url("assets/pngtree-stock-trend-candlestick-chart-background-computer-finance-picture-image_1908866.png");
   background-size: cover;
 }
 video {
@@ -43,6 +43,10 @@ video {
   min-width: 100%;
   min-height: 100%;
   z-index: -100;
+}
+a{
+  color:rgb(68, 205, 50);
+  font-size: 1.3rem;
 }
 
 h2 {
@@ -63,7 +67,7 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #98ff64;
 }
 button:focus,
 button:focus-visible {
@@ -72,7 +76,7 @@ button:focus-visible {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
+    color: #040608;
     background-color: #ffffff;
   }
   a:hover {
