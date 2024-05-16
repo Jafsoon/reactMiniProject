@@ -8,15 +8,20 @@ const WelcomeNotes = () => {
   return (
     <>
 
-<h1>Calculate and time</h1>
-<div>
+<h1>Calculater and diffrent Time-zones</h1>
+<br />
+
+
+<div className="timeContainer">
 <NavLink to="/TimeNY">NewYorkTime</NavLink>
 <br />
 <NavLink to="/TimeLO">London-Time</NavLink>
 <br />
 <NavLink to="/TimeTo">Tokyo-Time</NavLink>
 </div>
+
  <Outlet />
+ 
     </>
   )
 }
