@@ -1,32 +1,26 @@
+import { Outlet } from "react-router-dom"; // Importing necessary modules from react-router-dom
+import { NavLink } from "react-router-dom";
 
-import { Outlet } from "react-router-dom";
-import { NavLink} from "react-router-dom";
-
-
+// Defining a functional component
 const WelcomeNotes = () => {
-
   return (
     <>
+      <h1>Calculator and diffrent Time-zones Display</h1>
+      <br />
 
-<h1>Calculator and diffrent Time-zones Display</h1>
-<br />
+      <div className="timeContainer">
+        <NavLink to="/TimeNY">NewYork-Time</NavLink>
+        <br />
+        <NavLink to="/TimeLO">London-Time</NavLink>
+        <br />
+        <NavLink to="/TimeTo">Tokyo-Time</NavLink>
+        <br />
+        <NavLink to="/Calculator">Calculator</NavLink>
+      </div>
 
-
-<div className="timeContainer">
-<NavLink to="/TimeNY">NewYorkTime</NavLink>
-<br />
-<NavLink to="/TimeLO">London-Time</NavLink>
-<br />
-<NavLink to="/TimeTo">Tokyo-Time</NavLink>
-<br />
-<NavLink to="/Calculator">Calculator</NavLink>
-
-</div>
-
- <Outlet />
- 
+      <Outlet />
     </>
-  )
-}
+  );
+};
 
-export default WelcomeNotes
+export default WelcomeNotes;
